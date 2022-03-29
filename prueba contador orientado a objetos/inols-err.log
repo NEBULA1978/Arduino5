@@ -1,0 +1,1272 @@
+
+
+
+
+
+
+
+Started logging.
+2021/06/14 23:52:48 logging to c:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\inols.log
+2021/06/14 23:52:48 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/14 23:52:48 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399
+2021/06/14 23:52:48 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch
+2021/06/14 23:52:48 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/14 23:52:48 IDE --> initialize 0 [93m locked[0m
+2021/06/14 23:52:48 IDE --> initialize 0 [93m unlocked[0m
+2021/06/14 23:52:48 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:52:49 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/14 23:52:49 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/14 23:52:49 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/14 23:52:49 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/14 23:52:49 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:52:49 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/14 23:52:49 IDE --> textDocument/didOpen notif2 (throttled: waiting for clangd)
+2021/06/14 23:52:49 IDE --> textDocument/didOpen notif2 [93m unlocked (waiting clangd)[0m
+2021/06/14 23:52:49 INIT--- initializing workbench
+2021/06/14 23:52:49 INIT--- [93m locked[0m
+2021/06/14 23:52:49     --> initialize(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a)
+2021/06/14 23:52:49 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\541125058 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399 --format json C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a
+2021/06/14 23:52:50 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server561124399"
+  },
+  "success": true
+}
+
+2021/06/14 23:52:50 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/14 23:52:50 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/14 23:52:50     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/14 23:52:50 logging to c:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\inols-clangd.log
+2021/06/14 23:52:50 logging to c:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\inols-clangd-err.log
+2021/06/14 23:52:50 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/14 23:52:50 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/14 23:52:50 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/14 23:52:50 INIT--- initializing workbench (done)
+2021/06/14 23:52:50 INIT--- [93m unlocked[0m
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 [93m locked (waiting clangd)[0m
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino@1 as 'cpp')
+2021/06/14 23:52:50     increasing .ino tracked files count: 1
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp@1 as 'cpp')
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/14 23:52:50 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/14 23:52:50 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/14 23:52:50 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 23:52:50 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/14 23:52:50 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:0:0)
+2021/06/14 23:52:50 SYLD--- [93m read-locked[0m
+2021/06/14 23:52:50 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp
+2021/06/14 23:52:50 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:52:50 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/14 23:52:50     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:0)
+2021/06/14 23:52:50 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/14 23:52:50 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 23:52:50 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:52:50 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:52:50 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:52:50 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:52:50 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/14 23:52:51 CLG <-- textDocument/publishDiagnostics notif3 (queued)
+2021/06/14 23:52:51 CLG <-- textDocument/publishDiagnostics notif3 [93m read-locked[0m
+2021/06/14 23:52:51 CLG <-- textDocument/publishDiagnostics notif3 (running)
+2021/06/14 23:52:51 CLG <-- textDocument/publishDiagnostics notif3 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:52:51 CLG <-- textDocument/publishDiagnostics notif3 [93m read-unlocked[0m
+2021/06/14 23:52:51 SYLD--- [93m read-locked[0m
+2021/06/14 23:52:51 SYLD---    symbol: Function setup 3:0-3:12
+2021/06/14 23:52:51 SYLD---             > void setup()
+2021/06/14 23:52:51 SYLD---    symbol: Function loop 5:0-5:11
+2021/06/14 23:52:51 SYLD---             > void loop()
+2021/06/14 23:52:51 SYLD---    symbol: Function setup 7:0-10:1
+2021/06/14 23:52:51 SYLD---      TRIMMED> void setup() 
+2021/06/14 23:52:51 SYLD---    symbol: Function loop 12:0-15:1
+2021/06/14 23:52:51 SYLD---      TRIMMED> void loop() 
+2021/06/14 23:52:51 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:52:51 SYLD--- (done)
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/14 23:52:51     <-- codeAction(0 elements)
+2021/06/14 23:52:51 <-- codeAction(0 elements)
+2021/06/14 23:52:51 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/14 23:52:51 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/14 23:52:51 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/14 23:52:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:52:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 23:52:53 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:52:53 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:53:19 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 23:53:19 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/14 23:53:19 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:0:0)
+2021/06/14 23:53:19     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:0)
+2021/06/14 23:53:19 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/14 23:53:19 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/14 23:53:19 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/14 23:53:19     <-- codeAction(0 elements)
+2021/06/14 23:53:19 <-- codeAction(0 elements)
+2021/06/14 23:53:19 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/14 23:53:19 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/14 23:53:20 [92mIDE --> LS     CL: REQUEST textDocument/hover 3: [0m
+2021/06/14 23:53:20 IDE --> textDocument/hover 3 [93m read-locked[0m
+2021/06/14 23:53:20 --> hover(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:0:0)
+2021/06/14 23:53:20     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:0)
+2021/06/14 23:53:20 IDE --> textDocument/hover 3 sent to Clang
+2021/06/14 23:53:20 [91mIDE     LS --> CL: REQUEST textDocument/hover 4: [0m
+2021/06/14 23:53:20 [92mIDE     LS <-- CL: ANSWER textDocument/hover 4 (4): [0m
+2021/06/14 23:53:20 IDE --> textDocument/hover 3 [93m read-unlocked[0m
+2021/06/14 23:53:20 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/14 23:53:20 [92mIDE --> LS     CL: REQUEST textDocument/definition 4: [0m
+2021/06/14 23:53:20 IDE --> textDocument/definition 4 [93m read-locked[0m
+2021/06/14 23:53:20 --> textDocument/definition(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:0:1)
+2021/06/14 23:53:20     --> textDocument/definition(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:1)
+2021/06/14 23:53:20 IDE --> textDocument/definition 4 sent to Clang
+2021/06/14 23:53:20 [91mIDE     LS --> CL: REQUEST textDocument/definition 5: [0m
+2021/06/14 23:53:20 [92mIDE     LS <-- CL: ANSWER textDocument/definition 5 (5): [0m
+2021/06/14 23:53:20 IDE --> textDocument/definition 4 [93m read-unlocked[0m
+2021/06/14 23:53:20 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/14 23:53:21 [92mIDE --> LS     CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:53:21 IDE --> textDocument/didChange notif3 [93m locked[0m
+2021/06/14 23:53:21 --> didChange(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino@2)
+2021/06/14 23:53:21      > 0:0-9:0 -> "#include &amp;amp;lt;Contador.h&amp;amp;gt;\n  \n  void Contador::SetContador( int n)\n        {  N = n ;  }\n \n   void Contador::Incrementar()\n        {  N++ ; }\n  \n   int Contador::GetCont()\n        { return (N) ;}"
+2021/06/14 23:53:21 --! DIRTY CHANGE detected using symbol tables, force sketch rebuild!
+2021/06/14 23:53:21 --! DIRTY CHANGE detected with sketch mapper, force sketch rebuild!
+2021/06/14 23:53:21 INCK--- #include change detected, triggering sketch rebuild!
+2021/06/14 23:53:21     --> didChange(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp@2)
+2021/06/14 23:53:21          > 7:0-16:0 -> "#include &amp;amp;lt;Contador.h&amp;amp;gt;\n  \n  void Contador::SetContador( int n)\n        {  N = n ;  }\n \n   void Contador::Incrementar()\n        {  N++ ; }\n  \n   int Contador::GetCont()\n        { return (N) ;}"
+2021/06/14 23:53:21 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:53:21 IDE --> textDocument/didChange notif3 [93m unlocked[0m
+2021/06/14 23:53:21 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 (queued)
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 [93m read-locked[0m
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 (running)
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 7:9 - 1: pp_expects_filename
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 9:7 - 1: undeclared_var_use
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 12:8 - 1: undeclared_var_use
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 15:7 - 1: undeclared_var_use
+2021/06/14 23:53:21     URI: converted 7:9-7:10 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:0:9-0:10
+2021/06/14 23:53:21     URI: converted 9:7-9:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:2:7-2:15
+2021/06/14 23:53:21     URI: converted 12:8-12:16 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:5:8-5:16
+2021/06/14 23:53:21     URI: converted 15:7-15:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:8:7-8:15
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino):
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:53:21 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:21 CLG <-- textDocument/publishDiagnostics notif52 [93m read-unlocked[0m
+2021/06/14 23:53:21 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/14 23:53:21 IDE --> textDocument/codeAction 5 [93m read-locked[0m
+2021/06/14 23:53:21 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:9:23)
+2021/06/14 23:53:21     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:16:23)
+2021/06/14 23:53:21 IDE --> textDocument/codeAction 5 sent to Clang
+2021/06/14 23:53:21 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 6: [0m
+2021/06/14 23:53:21 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 6 (6): [0m
+2021/06/14 23:53:21 IDE --> textDocument/codeAction 5 Queued check document symbols
+2021/06/14 23:53:21 SYCK--- [93m read-locked[0m
+2021/06/14 23:53:21 SYCK--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp
+2021/06/14 23:53:21 SYCK--- [93m read-unlocked[0m
+2021/06/14 23:53:21 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 7: [0m
+2021/06/14 23:53:21 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 7 (7): [0m
+2021/06/14 23:53:21 SYCK--- [93m read-locked[0m
+2021/06/14 23:53:21 SYCK---    symbol: Function setup 3:0-3:12
+2021/06/14 23:53:21 SYCK---             > void setup()
+2021/06/14 23:53:21 SYCK---    symbol: Function loop 5:0-5:11
+2021/06/14 23:53:21 SYCK---             > void loop()
+2021/06/14 23:53:21 SYCK--- function symbols change detected, triggering sketch rebuild!
+2021/06/14 23:53:21 SYCK--- [93m read-unlocked[0m
+2021/06/14 23:53:21 SYCK--- (done)
+2021/06/14 23:53:21     <-- codeAction(0 elements)
+2021/06/14 23:53:21 <-- codeAction(0 elements)
+2021/06/14 23:53:21 IDE --> textDocument/codeAction 5 [93m read-unlocked[0m
+2021/06/14 23:53:21 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/14 23:53:21 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:53:21 IDE --> textDocument/didSave notif4 [93m read-locked[0m
+2021/06/14 23:53:21 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino)
+2021/06/14 23:53:21     --| didSave not forwarded to clangd
+2021/06/14 23:53:21 IDE --> textDocument/didSave notif4 [93m read-unlocked[0m
+2021/06/14 23:53:22 RBLD---[93m locked[0m
+2021/06/14 23:53:22     --> RE-initialize()
+2021/06/14 23:53:22 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 1: [0m
+2021/06/14 23:53:22 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 1 (1): [0m
+2021/06/14 23:53:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild BEGIN Building sketch [0m
+2021/06/14 23:53:22 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\264058937 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399 --format json C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a
+2021/06/14 23:53:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling. 0%[0m
+2021/06/14 23:53:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling.. 0%[0m
+2021/06/14 23:53:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling... 0%[0m
+2021/06/14 23:53:24 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\\sketch_jun14a\\sketch_jun14a.ino:1:10: error: #include expects \"FILENAME\" or \u003cFILENAME\u003e\r\n #include \u0026amp;amp;lt;Contador.h\u0026amp;amp;gt;\r\n          ^\r\n",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server561124399"
+  },
+  "success": false
+}
+
+2021/06/14 23:53:24 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:53:24 RBLD---[93m unlocked[0m
+2021/06/14 23:53:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild END done[0m
+2021/06/14 23:53:24 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 (queued)
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 [93m read-locked[0m
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 (running)
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 2:9 - 1: pp_expects_filename
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 4:7 - 1: undeclared_var_use
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 7:8 - 1: undeclared_var_use
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 10:7 - 1: undeclared_var_use
+2021/06/14 23:53:24     URI: converted 2:9-2:10 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:0:9-0:10
+2021/06/14 23:53:24     URI: converted 4:7-4:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:2:7-2:15
+2021/06/14 23:53:24     URI: converted 7:8-7:16 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:5:8-5:16
+2021/06/14 23:53:24     URI: converted 10:7-10:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:8:7-8:15
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino):
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:53:24 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:24 CLG <-- textDocument/publishDiagnostics notif53 [93m read-unlocked[0m
+2021/06/14 23:53:24 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 6: [0m
+2021/06/14 23:53:24 IDE --> textDocument/codeAction 6 [93m read-locked[0m
+2021/06/14 23:53:24 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:9:23)
+2021/06/14 23:53:24     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:11:23)
+2021/06/14 23:53:24 IDE --> textDocument/codeAction 6 sent to Clang
+2021/06/14 23:53:24 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 8: [0m
+2021/06/14 23:53:24 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 8 (8): [0m
+2021/06/14 23:53:24 IDE --> textDocument/codeAction 6 Queued resfreshing document symbols
+2021/06/14 23:53:24 SYLD--- [93m read-locked[0m
+2021/06/14 23:53:24 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp
+2021/06/14 23:53:24 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:53:24 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 9: [0m
+2021/06/14 23:53:24 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 9 (9): [0m
+2021/06/14 23:53:24     <-- codeAction(0 elements)
+2021/06/14 23:53:24 <-- codeAction(0 elements)
+2021/06/14 23:53:24 IDE --> textDocument/codeAction 6 [93m read-unlocked[0m
+2021/06/14 23:53:24 [91mIDE <-- LS     CL: ANSWER UNBOUND (6): [0m
+2021/06/14 23:53:24 SYLD--- [93m read-locked[0m
+2021/06/14 23:53:24 SYLD--- error: expected DocumenSymbol array from clangd
+2021/06/14 23:53:24 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:53:24 SYLD--- (done)
+2021/06/14 23:53:52 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:53:52 IDE --> textDocument/didOpen notif5 [93m locked[0m
+2021/06/14 23:53:52 IDE --> textDocument/didOpen notif5 (file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h@1 as 'cpp')
+2021/06/14 23:53:52     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h'
+2021/06/14 23:53:52 IDE --> textDocument/didOpen notif5 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h@1 as 'cpp')
+2021/06/14 23:53:52 IDE --> textDocument/didOpen notif5 sent to Clang
+2021/06/14 23:53:52 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:53:52 IDE --> textDocument/didOpen notif5 [93m unlocked[0m
+2021/06/14 23:53:52 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 1: [0m
+2021/06/14 23:53:52 [91mIDE     LS --> CL: ANSWER UNBOUND (1): [0m
+2021/06/14 23:53:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:53:52 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:53:52 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 2: [0m
+2021/06/14 23:53:52 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 2 (2): [0m
+2021/06/14 23:53:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:53:52 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:53:52 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 (queued)
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 [93m read-locked[0m
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 (running)
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h):
+2021/06/14 23:53:52     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h'
+2021/06/14 23:53:52               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h'
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h):
+2021/06/14 23:53:52 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:53:52 CLG <-- textDocument/publishDiagnostics notif56 [93m read-unlocked[0m
+2021/06/14 23:54:06 [92mIDE --> LS     CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:06 IDE --> textDocument/didChange notif6 [93m locked[0m
+2021/06/14 23:54:06 --> didChange(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h@2)
+2021/06/14 23:54:06      > 0:0-0:0 -> "class Contador\r\n   {  private:\r\n         int N ;\r\n \r\n      public:\r\n         Contador( ) ;                  // Constructor\r\n         void SetContador( int n) ;     // Declaracion de funcion externa\r\n         void Incrementar() ;           // Declaracion de funcion externa\r\n         int GetCont() ;                // Declaracion de funcion externa\r\n   } ;"
+2021/06/14 23:54:06     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h'
+2021/06/14 23:54:06     --> didChange(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h@2)
+2021/06/14 23:54:06          > 0:0-0:0 -> "class Contador\r\n   {  private:\r\n         int N ;\r\n \r\n      public:\r\n         Contador( ) ;                  // Constructor\r\n         void SetContador( int n) ;     // Declaracion de funcion externa\r\n         void Incrementar() ;           // Declaracion de funcion externa\r\n         int GetCont() ;                // Declaracion de funcion externa\r\n   } ;"
+2021/06/14 23:54:06 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:06 IDE --> textDocument/didChange notif6 [93m unlocked[0m
+2021/06/14 23:54:06 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 7: [0m
+2021/06/14 23:54:06 IDE --> textDocument/codeAction 7 [93m read-locked[0m
+2021/06/14 23:54:06 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h:9:6)
+2021/06/14 23:54:06     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h'
+2021/06/14 23:54:06     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h:9:6)
+2021/06/14 23:54:06 IDE --> textDocument/codeAction 7 sent to Clang
+2021/06/14 23:54:06 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 10: [0m
+2021/06/14 23:54:06 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 (queued)
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 [93m read-locked[0m
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 (running)
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h):
+2021/06/14 23:54:06 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 10 (10): [0m
+2021/06/14 23:54:06     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h'
+2021/06/14 23:54:06               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h'
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h):
+2021/06/14 23:54:06 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:06 CLG <-- textDocument/publishDiagnostics notif57 [93m read-unlocked[0m
+2021/06/14 23:54:06     <-- codeAction(0 elements)
+2021/06/14 23:54:06 <-- codeAction(0 elements)
+2021/06/14 23:54:06 IDE --> textDocument/codeAction 7 [93m read-unlocked[0m
+2021/06/14 23:54:06 [91mIDE <-- LS     CL: ANSWER UNBOUND (7): [0m
+2021/06/14 23:54:07 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:54:07 IDE --> textDocument/didSave notif7 [93m read-locked[0m
+2021/06/14 23:54:07 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h)
+2021/06/14 23:54:07     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h'
+2021/06/14 23:54:07     --> textDocument/didSave(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h)
+2021/06/14 23:54:07 IDE --> textDocument/didSave notif7 sent to Clang
+2021/06/14 23:54:07 [91mIDE     LS --> CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:54:07 IDE --> textDocument/didSave notif7 [93m read-unlocked[0m
+2021/06/14 23:54:07 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 (queued)
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 [93m read-locked[0m
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 (running)
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 0:9 - 1: pp_file_not_found
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 4:7 - 1: undeclared_var_use
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 7:8 - 1: undeclared_var_use
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 10:7 - 1: undeclared_var_use
+2021/06/14 23:54:07     URI: converted 0:9-0:20 to /not-ino:0:9-0:20
+2021/06/14 23:54:07     URI: converted 4:7-4:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:2:7-2:15
+2021/06/14 23:54:07     URI: converted 7:8-7:16 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:5:8-5:16
+2021/06/14 23:54:07     URI: converted 10:7-10:15 to C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\sketch_jun14a.ino:8:7-8:15
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino):
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:54:07 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:07 CLG <-- textDocument/publishDiagnostics notif58 [93m read-unlocked[0m
+2021/06/14 23:54:07 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 8: [0m
+2021/06/14 23:54:07 IDE --> textDocument/codeAction 8 [93m read-locked[0m
+2021/06/14 23:54:07 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:9:23)
+2021/06/14 23:54:07     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:11:23)
+2021/06/14 23:54:07 IDE --> textDocument/codeAction 8 sent to Clang
+2021/06/14 23:54:07 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 11: [0m
+2021/06/14 23:54:07 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 11 (11): [0m
+2021/06/14 23:54:07 IDE --> textDocument/codeAction 8 Queued check document symbols
+2021/06/14 23:54:07 SYCK--- [93m read-locked[0m
+2021/06/14 23:54:07 SYCK--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp
+2021/06/14 23:54:07 SYCK--- [93m read-unlocked[0m
+2021/06/14 23:54:07 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 12: [0m
+2021/06/14 23:54:07 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 12 (12): [0m
+2021/06/14 23:54:07 SYCK--- [93m read-locked[0m
+2021/06/14 23:54:07 SYCK--- error: expected DocumenSymbol array from clangd
+2021/06/14 23:54:07 SYCK--- [93m read-unlocked[0m
+2021/06/14 23:54:07 SYCK--- (done)
+2021/06/14 23:54:07     <-- codeAction(0 elements)
+2021/06/14 23:54:07 <-- codeAction(0 elements)
+2021/06/14 23:54:07 IDE --> textDocument/codeAction 8 [93m read-unlocked[0m
+2021/06/14 23:54:07 [91mIDE <-- LS     CL: ANSWER UNBOUND (8): [0m
+2021/06/14 23:54:14 [92mIDE --> LS     CL: REQUEST textDocument/hover 9: [0m
+2021/06/14 23:54:14 IDE --> textDocument/hover 9 [93m read-locked[0m
+2021/06/14 23:54:14 --> hover(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:5:5)
+2021/06/14 23:54:14     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:5)
+2021/06/14 23:54:14 IDE --> textDocument/hover 9 sent to Clang
+2021/06/14 23:54:14 [91mIDE     LS --> CL: REQUEST textDocument/hover 13: [0m
+2021/06/14 23:54:14 [92mIDE     LS <-- CL: ANSWER textDocument/hover 13 (13): [0m
+2021/06/14 23:54:14 IDE --> textDocument/hover 9 [93m read-unlocked[0m
+2021/06/14 23:54:14 [91mIDE <-- LS     CL: ANSWER UNBOUND (9): [0m
+2021/06/14 23:54:16 [92mIDE --> LS     CL: REQUEST textDocument/hover 10: [0m
+2021/06/14 23:54:16 IDE --> textDocument/hover 10 [93m read-locked[0m
+2021/06/14 23:54:16 --> hover(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:5:27)
+2021/06/14 23:54:16     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:7:27)
+2021/06/14 23:54:16 IDE --> textDocument/hover 10 sent to Clang
+2021/06/14 23:54:16 [91mIDE     LS --> CL: REQUEST textDocument/hover 14: [0m
+2021/06/14 23:54:16 [92mIDE     LS <-- CL: ANSWER textDocument/hover 14 (14): [0m
+2021/06/14 23:54:16 IDE --> textDocument/hover 10 [93m read-unlocked[0m
+2021/06/14 23:54:16 [91mIDE <-- LS     CL: ANSWER UNBOUND (10): [0m
+2021/06/14 23:54:35 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 11: [0m
+2021/06/14 23:54:35 IDE --> textDocument/codeAction 11 [93m read-locked[0m
+2021/06/14 23:54:35 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:0:0)
+2021/06/14 23:54:35     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:2:0)
+2021/06/14 23:54:35 IDE --> textDocument/codeAction 11 sent to Clang
+2021/06/14 23:54:35 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 15: [0m
+2021/06/14 23:54:35 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 15 (15): [0m
+2021/06/14 23:54:35     <-- codeAction(0 elements)
+2021/06/14 23:54:35 <-- codeAction(0 elements)
+2021/06/14 23:54:35 IDE --> textDocument/codeAction 11 [93m read-unlocked[0m
+2021/06/14 23:54:35 [91mIDE <-- LS     CL: ANSWER UNBOUND (11): [0m
+2021/06/14 23:54:36 [92mIDE --> LS     CL: REQUEST textDocument/hover 12: [0m
+2021/06/14 23:54:36 IDE --> textDocument/hover 12 [93m read-locked[0m
+2021/06/14 23:54:36 --> hover(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:3:7)
+2021/06/14 23:54:36     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:5:7)
+2021/06/14 23:54:36 IDE --> textDocument/hover 12 sent to Clang
+2021/06/14 23:54:36 [91mIDE     LS --> CL: REQUEST textDocument/hover 16: [0m
+2021/06/14 23:54:36 [92mIDE     LS <-- CL: ANSWER textDocument/hover 16 (16): [0m
+2021/06/14 23:54:36 IDE --> textDocument/hover 12 [93m read-unlocked[0m
+2021/06/14 23:54:36 [91mIDE <-- LS     CL: ANSWER UNBOUND (12): [0m
+2021/06/14 23:54:40 [92mIDE --> LS     CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:40 IDE --> textDocument/didChange notif8 [93m locked[0m
+2021/06/14 23:54:40 --> didChange(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino@3)
+2021/06/14 23:54:40      > 0:0-9:23 -> ""
+2021/06/14 23:54:40 --! DIRTY CHANGE detected using symbol tables, force sketch rebuild!
+2021/06/14 23:54:40 INCK--- #include change detected, triggering sketch rebuild!
+2021/06/14 23:54:40     --> didChange(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp@4)
+2021/06/14 23:54:40          > 2:0-11:23 -> ""
+2021/06/14 23:54:40 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:40 IDE --> textDocument/didChange notif8 [93m unlocked[0m
+2021/06/14 23:54:41 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 (queued)
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 [93m read-locked[0m
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 (running)
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 > 0:9 - 1: pp_file_not_found
+2021/06/14 23:54:41     URI: converted 0:9-0:20 to /not-ino:0:9-0:20
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino):
+2021/06/14 23:54:41 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:41 CLG <-- textDocument/publishDiagnostics notif59 [93m read-unlocked[0m
+2021/06/14 23:54:41 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:54:41 IDE --> textDocument/didSave notif9 [93m read-locked[0m
+2021/06/14 23:54:41 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino)
+2021/06/14 23:54:41     --| didSave not forwarded to clangd
+2021/06/14 23:54:41 IDE --> textDocument/didSave notif9 [93m read-unlocked[0m
+2021/06/14 23:54:42 RBLD---[93m locked[0m
+2021/06/14 23:54:42     --> RE-initialize()
+2021/06/14 23:54:42 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 3: [0m
+2021/06/14 23:54:42 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 3 (3): [0m
+2021/06/14 23:54:42 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\690878532 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399 --format json C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a
+2021/06/14 23:54:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild BEGIN Building sketch [0m
+2021/06/14 23:54:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling. 0%[0m
+2021/06/14 23:54:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling.. 0%[0m
+2021/06/14 23:54:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild REPORT compiling... 0%[0m
+2021/06/14 23:54:43 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server561124399"
+  },
+  "success": true
+}
+
+2021/06/14 23:54:43 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:43 RBLD---[93m unlocked[0m
+2021/06/14 23:54:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=arduinoLanguageServerRebuild END done[0m
+2021/06/14 23:54:51 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 [93m locked[0m
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 (file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp@1 as 'cpp')
+2021/06/14 23:54:51     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp@1 as 'cpp')
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 sent to Clang
+2021/06/14 23:54:51 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 Queued resfreshing document symbols
+2021/06/14 23:54:51 IDE --> textDocument/didOpen notif10 [93m unlocked[0m
+2021/06/14 23:54:51 SYLD--- [93m read-locked[0m
+2021/06/14 23:54:51 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp
+2021/06/14 23:54:51 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:54:51 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 17: [0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 17 (17): [0m
+2021/06/14 23:54:51 SYLD--- [93m read-locked[0m
+2021/06/14 23:54:51 SYLD--- error: expected DocumenSymbol array from clangd
+2021/06/14 23:54:51 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:54:51 SYLD--- (done)
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 2: [0m
+2021/06/14 23:54:51 [91mIDE     LS --> CL: ANSWER UNBOUND (2): [0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/14 23:54:51 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 4: [0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:54:51 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 4 (4): [0m
+2021/06/14 23:54:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:54:51 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:54:51 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 (queued)
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 [93m read-locked[0m
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 (running)
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp):
+2021/06/14 23:54:51     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:51               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp):
+2021/06/14 23:54:51 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:51 CLG <-- textDocument/publishDiagnostics notif64 [93m read-unlocked[0m
+2021/06/14 23:54:53 [92mIDE --> LS     CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:53 IDE --> textDocument/didChange notif11 [93m locked[0m
+2021/06/14 23:54:53 --> didChange(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp@2)
+2021/06/14 23:54:53      > 0:0-0:0 -> "#include &amp;amp;lt;Contador.h&amp;amp;gt;\r\n  \r\n  void Contador::SetContador( int n)\r\n        {  N = n ;  }\r\n \r\n   void Contador::Incrementar()\r\n        {  N++ ; }\r\n  \r\n   int Contador::GetCont()\r\n        { return (N) ;}"
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:54:53     --> didChange(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp@2)
+2021/06/14 23:54:53          > 0:0-0:0 -> "#include &amp;amp;lt;Contador.h&amp;amp;gt;\r\n  \r\n  void Contador::SetContador( int n)\r\n        {  N = n ;  }\r\n \r\n   void Contador::Incrementar()\r\n        {  N++ ; }\r\n  \r\n   int Contador::GetCont()\r\n        { return (N) ;}"
+2021/06/14 23:54:53 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:54:53 IDE --> textDocument/didChange notif11 [93m unlocked[0m
+2021/06/14 23:54:53 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 (queued)
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 [93m read-locked[0m
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 (running)
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp):
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:53               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:53 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 13: [0m
+2021/06/14 23:54:53 IDE --> textDocument/codeAction 13 [93m read-locked[0m
+2021/06/14 23:54:53 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp:9:23)
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:53               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:53               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:53               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:53     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp:9:23)
+2021/06/14 23:54:53 IDE --> textDocument/codeAction 13 sent to Clang
+2021/06/14 23:54:53 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 18: [0m
+2021/06/14 23:54:53     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp'
+2021/06/14 23:54:53               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp'
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp):
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:54:53 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:53 CLG <-- textDocument/publishDiagnostics notif65 [93m read-unlocked[0m
+2021/06/14 23:54:53 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 18 (18): [0m
+2021/06/14 23:54:53     <-- codeAction(0 elements)
+2021/06/14 23:54:53 <-- codeAction(0 elements)
+2021/06/14 23:54:53 IDE --> textDocument/codeAction 13 [93m read-unlocked[0m
+2021/06/14 23:54:53 [91mIDE <-- LS     CL: ANSWER UNBOUND (13): [0m
+2021/06/14 23:54:54 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:54:54 IDE --> textDocument/didSave notif12 [93m read-locked[0m
+2021/06/14 23:54:54 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp)
+2021/06/14 23:54:54     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:54:54     --> textDocument/didSave(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp)
+2021/06/14 23:54:54 IDE --> textDocument/didSave notif12 sent to Clang
+2021/06/14 23:54:54 [91mIDE     LS --> CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:54:54 IDE --> textDocument/didSave notif12 [93m read-unlocked[0m
+2021/06/14 23:54:54 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 14: [0m
+2021/06/14 23:54:54 IDE --> textDocument/codeAction 14 [93m read-locked[0m
+2021/06/14 23:54:54 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp:9:23)
+2021/06/14 23:54:54     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:54:54     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp:9:23)
+2021/06/14 23:54:54 IDE --> textDocument/codeAction 14 sent to Clang
+2021/06/14 23:54:54 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 19: [0m
+2021/06/14 23:54:54 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 19 (19): [0m
+2021/06/14 23:54:54     <-- codeAction(0 elements)
+2021/06/14 23:54:54 <-- codeAction(0 elements)
+2021/06/14 23:54:54 IDE --> textDocument/codeAction 14 [93m read-unlocked[0m
+2021/06/14 23:54:54 [91mIDE <-- LS     CL: ANSWER UNBOUND (14): [0m
+2021/06/14 23:54:54 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 (queued)
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 [93m read-locked[0m
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 (running)
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h):
+2021/06/14 23:54:54     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h'
+2021/06/14 23:54:54               as URI: 'file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h'
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h):
+2021/06/14 23:54:54 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif66 [93m read-unlocked[0m
+2021/06/14 23:54:54 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif67 (queued)
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif67 [93m read-locked[0m
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif67 (running)
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif67 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:54:54 CLG <-- textDocument/publishDiagnostics notif67 [93m read-unlocked[0m
+2021/06/14 23:55:56 [92mIDE --> LS     CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:55:56 IDE --> textDocument/didChange notif13 [93m locked[0m
+2021/06/14 23:55:56 --> didChange(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino@4)
+2021/06/14 23:55:56      > 0:0-0:0 -> "class Contador\n   {  private:\n         int N ;\n \n      public:   \n         Contador( ) ;              // Constructor\n         Contador( int k ) ;        // Constructor\n         void SetContador( int n) ;\n         void Incrementar() ;\n         int GetCont() ;\n   } ;\n \nContador::Contador( )           // Constructor\n    { N = 0 ; }       \nContador::Contador( int k)         // Constructor\n    { N = k ; }   \n \nContador C1, C2(23) ;"
+2021/06/14 23:55:56     --> didChange(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp@6)
+2021/06/14 23:55:56          > 2:0-2:0 -> "class Contador\n   {  private:\n         int N ;\n \n      public:   \n         Contador( ) ;              // Constructor\n         Contador( int k ) ;        // Constructor\n         void SetContador( int n) ;\n         void Incrementar() ;\n         int GetCont() ;\n   } ;\n \nContador::Contador( )           // Constructor\n    { N = 0 ; }       \nContador::Contador( int k)         // Constructor\n    { N = k ; }   \n \nContador C1, C2(23) ;"
+2021/06/14 23:55:56 [91mIDE     LS --> CL: NOTIFICATION textDocument/didChange: [0m
+2021/06/14 23:55:56 IDE --> textDocument/didChange notif13 [93m unlocked[0m
+2021/06/14 23:55:56 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:55:56 CLG <-- textDocument/publishDiagnostics notif68 (queued)
+2021/06/14 23:55:56 CLG <-- textDocument/publishDiagnostics notif68 [93m read-locked[0m
+2021/06/14 23:55:56 CLG <-- textDocument/publishDiagnostics notif68 (running)
+2021/06/14 23:55:56 CLG <-- textDocument/publishDiagnostics notif68 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp):
+2021/06/14 23:55:56 CLG <-- textDocument/publishDiagnostics notif68 [93m read-unlocked[0m
+2021/06/14 23:55:56 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 15: [0m
+2021/06/14 23:55:56 IDE --> textDocument/codeAction 15 [93m read-locked[0m
+2021/06/14 23:55:56 --> codeAction(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:17:21)
+2021/06/14 23:55:56     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:19:21)
+2021/06/14 23:55:56 IDE --> textDocument/codeAction 15 sent to Clang
+2021/06/14 23:55:56 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 20: [0m
+2021/06/14 23:55:56 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 20 (20): [0m
+2021/06/14 23:55:56     <-- codeAction(0 elements)
+2021/06/14 23:55:56 <-- codeAction(0 elements)
+2021/06/14 23:55:56 IDE --> textDocument/codeAction 15 [93m read-unlocked[0m
+2021/06/14 23:55:56 [91mIDE <-- LS     CL: ANSWER UNBOUND (15): [0m
+2021/06/14 23:55:56 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:55:56 IDE --> textDocument/didSave notif14 [93m read-locked[0m
+2021/06/14 23:55:56 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino)
+2021/06/14 23:55:56     --| didSave not forwarded to clangd
+2021/06/14 23:55:56 IDE --> textDocument/didSave notif14 [93m read-unlocked[0m
+2021/06/14 23:56:00 [92mIDE --> LS     CL: REQUEST textDocument/hover 16: [0m
+2021/06/14 23:56:00 IDE --> textDocument/hover 16 [93m read-locked[0m
+2021/06/14 23:56:00 --> hover(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino:14:43)
+2021/06/14 23:56:00     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/sketch_jun14a.ino.cpp:16:43)
+2021/06/14 23:56:00 IDE --> textDocument/hover 16 sent to Clang
+2021/06/14 23:56:00 [91mIDE     LS --> CL: REQUEST textDocument/hover 21: [0m
+2021/06/14 23:56:00 [92mIDE     LS <-- CL: ANSWER textDocument/hover 21 (21): [0m
+2021/06/14 23:56:00 IDE --> textDocument/hover 16 [93m read-unlocked[0m
+2021/06/14 23:56:00 [91mIDE <-- LS     CL: ANSWER UNBOUND (16): [0m
+2021/06/14 23:56:07 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif15 [93m read-locked[0m
+2021/06/14 23:56:07 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/sketch_jun14a.ino)
+2021/06/14 23:56:07     --| didSave not forwarded to clangd
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif15 [93m read-unlocked[0m
+2021/06/14 23:56:07 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif16 [93m read-locked[0m
+2021/06/14 23:56:07 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.h)
+2021/06/14 23:56:07     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.h'
+2021/06/14 23:56:07     --> textDocument/didSave(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.h)
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif16 sent to Clang
+2021/06/14 23:56:07 [91mIDE     LS --> CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif16 [93m read-unlocked[0m
+2021/06/14 23:56:07 [92mIDE --> LS     CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif17 [93m read-locked[0m
+2021/06/14 23:56:07 --> textDocument/didSave(file:///c%3A/Users/NEXT/AppData/Local/Temp/.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m/sketch_jun14a/contador.cpp)
+2021/06/14 23:56:07     URI: 'C:\Users\NEXT\AppData\Local\Temp\.arduinoIDE-unsaved2021514-2216-1t5w1sb.jw5m\sketch_jun14a\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server561124399\sketch\contador.cpp'
+2021/06/14 23:56:07     --> textDocument/didSave(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server561124399/sketch/contador.cpp)
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif17 sent to Clang
+2021/06/14 23:56:07 [91mIDE     LS --> CL: NOTIFICATION textDocument/didSave: [0m
+2021/06/14 23:56:07 IDE --> textDocument/didSave notif17 [93m read-unlocked[0m
+
+
+
+
+
+
+
+Started logging.
+2021/06/14 23:56:31 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols.log
+2021/06/14 23:56:31 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/14 23:56:31 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079
+2021/06/14 23:56:31 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch
+2021/06/14 23:56:32 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/14 23:56:32 IDE --> initialize 0 [93m locked[0m
+2021/06/14 23:56:32 IDE --> initialize 0 [93m unlocked[0m
+2021/06/14 23:56:32 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:56:32 INIT--- initializing workbench
+2021/06/14 23:56:32 INIT--- [93m locked[0m
+2021/06/14 23:56:32     --> initialize(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos)
+2021/06/14 23:56:32 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\116797890 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079 --format json C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos
+2021/06/14 23:56:32 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/14 23:56:33 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server673516079"
+  },
+  "success": true
+}
+
+2021/06/14 23:56:33 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/14 23:56:33 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/14 23:56:33     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/14 23:56:33 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols-clangd.log
+2021/06/14 23:56:33 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols-clangd-err.log
+2021/06/14 23:56:33 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/14 23:56:33 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/14 23:56:33 INIT--- initializing workbench (done)
+2021/06/14 23:56:33 INIT--- [93m unlocked[0m
+2021/06/14 23:56:33 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/14 23:56:33 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/14 23:56:33 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/prueba%20contador%20orientado%20a%20objetos.ino@1 as 'cpp')
+2021/06/14 23:56:33     increasing .ino tracked files count: 1
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp@1 as 'cpp')
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 SYLD--- [93m read-locked[0m
+2021/06/14 23:56:33 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp
+2021/06/14 23:56:33 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:56:33 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif3 [93m locked[0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif3 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp@1 as 'cpp')
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp'
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif3 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.cpp@1 as 'cpp')
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif3 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif3 [93m unlocked[0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif4 [93m locked[0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif4 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h@1 as 'cpp')
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.h'
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:56:33 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif4 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.h@1 as 'cpp')
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif4 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:56:33 IDE --> textDocument/didOpen notif4 [93m unlocked[0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/14 23:56:33 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/prueba%20contador%20orientado%20a%20objetos.ino:0:0)
+2021/06/14 23:56:33     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp:2:0)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 (queued)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 [93m read-locked[0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 (running)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.h):
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.h' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h'
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h):
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif3 [93m read-unlocked[0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 (queued)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 [93m read-locked[0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 (running)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.cpp):
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/14 23:56:33               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp):
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 0:9 - 1: pp_expects_filename
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 2:7 - 1: undeclared_var_use
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 5:8 - 1: undeclared_var_use
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 > 8:7 - 1: undeclared_var_use
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif4 [93m read-unlocked[0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif5 (queued)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif5 [93m read-locked[0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif5 (running)
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif5 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp):
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/14 23:56:33 CLG <-- textDocument/publishDiagnostics notif5 [93m read-unlocked[0m
+2021/06/14 23:56:33 SYLD--- [93m read-locked[0m
+2021/06/14 23:56:33 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:56:33 SYLD--- (done)
+2021/06/14 23:56:33     <-- codeAction(0 elements)
+2021/06/14 23:56:33 <-- codeAction(0 elements)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/14 23:56:33 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp:0:0)
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp'
+2021/06/14 23:56:33     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.cpp:0:0)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/14 23:56:33     <-- codeAction(0 elements)
+2021/06/14 23:56:33 <-- codeAction(0 elements)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 3 [93m read-locked[0m
+2021/06/14 23:56:33 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h:0:0)
+2021/06/14 23:56:33     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.h'
+2021/06/14 23:56:33     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.h:0:0)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 3 sent to Clang
+2021/06/14 23:56:33 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/14 23:56:33 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 4 (4): [0m
+2021/06/14 23:56:33     <-- codeAction(0 elements)
+2021/06/14 23:56:33 <-- codeAction(0 elements)
+2021/06/14 23:56:33 IDE --> textDocument/codeAction 3 [93m read-unlocked[0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/14 23:56:33 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:56:33 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/14 23:56:34 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/14 23:56:34 IDE --> textDocument/codeAction 4 [93m read-locked[0m
+2021/06/14 23:56:34 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp:0:0)
+2021/06/14 23:56:34     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server673516079\sketch\contador.cpp'
+2021/06/14 23:56:34     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server673516079/sketch/contador.cpp:0:0)
+2021/06/14 23:56:34 IDE --> textDocument/codeAction 4 sent to Clang
+2021/06/14 23:56:34 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/14 23:56:34 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 5 (5): [0m
+2021/06/14 23:56:34     <-- codeAction(0 elements)
+2021/06/14 23:56:34 <-- codeAction(0 elements)
+2021/06/14 23:56:34 IDE --> textDocument/codeAction 4 [93m read-unlocked[0m
+2021/06/14 23:56:34 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/14 23:56:35 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/14 23:56:35 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/14 23:56:36 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/14 23:56:36 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/14 23:56:36 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/14 23:56:36 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/14 23:56:36 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:56:36 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:56:40 [92mIDE --> LS     CL: REQUEST shutdown 5: [0m
+2021/06/14 23:56:40 IDE --> shutdown 5 [93m read-locked[0m
+2021/06/14 23:56:40 IDE --> shutdown 5 sent to Clang
+2021/06/14 23:56:40 [91mIDE     LS --> CL: REQUEST shutdown 6: [0m
+2021/06/14 23:56:40 [92mIDE     LS <-- CL: ANSWER shutdown 6 (6): [0m
+2021/06/14 23:56:40 IDE --> shutdown 5 [93m read-unlocked[0m
+2021/06/14 23:56:40 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/14 23:56:40 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/14 23:56:40 IDE --> exit notif5 [93m read-locked[0m
+2021/06/14 23:56:40 IDE --> exit notif5 sent to Clang
+2021/06/14 23:56:40 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/14 23:56:40 IDE --> exit notif5 [93m read-unlocked[0m
+2021/06/14 23:56:40 Lost connection with clangd!
+2021/06/14 23:56:40 removing buildpath
+
+
+
+
+
+
+
+Started logging.
+2021/06/15 00:02:12 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols.log
+2021/06/15 00:02:12 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/15 00:02:12 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079
+2021/06/15 00:02:12 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch
+2021/06/15 00:02:12 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/15 00:02:12 IDE --> initialize 0 [93m locked[0m
+2021/06/15 00:02:12 IDE --> initialize 0 [93m unlocked[0m
+2021/06/15 00:02:12 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/15 00:02:12 INIT--- initializing workbench
+2021/06/15 00:02:12 INIT--- [93m locked[0m
+2021/06/15 00:02:12     --> initialize(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos)
+2021/06/15 00:02:12 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\451401402 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079 --format json C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos
+2021/06/15 00:02:12 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/15 00:02:13 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server462115079"
+  },
+  "success": true
+}
+
+2021/06/15 00:02:13 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/15 00:02:13 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/15 00:02:13     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/15 00:02:13 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols-clangd.log
+2021/06/15 00:02:13 logging to c:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\inols-clangd-err.log
+2021/06/15 00:02:13 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/15 00:02:14 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/15 00:02:14 INIT--- initializing workbench (done)
+2021/06/15 00:02:14 INIT--- [93m unlocked[0m
+2021/06/15 00:02:14 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/15 00:02:14 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/15 00:02:14 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h@1 as 'cpp')
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.h'
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.h@1 as 'cpp')
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif3 [93m locked[0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif3 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp@1 as 'cpp')
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp'
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif3 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.cpp@1 as 'cpp')
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif3 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif3 [93m unlocked[0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 SYLD--- [93m read-locked[0m
+2021/06/15 00:02:14 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp
+2021/06/15 00:02:14 SYLD--- [93m read-unlocked[0m
+2021/06/15 00:02:14 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif4 [93m locked[0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif4 (file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/prueba%20contador%20orientado%20a%20objetos.ino@1 as 'cpp')
+2021/06/15 00:02:14     increasing .ino tracked files count: 1
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif4 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp@1 as 'cpp')
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif4 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/15 00:02:14 IDE --> textDocument/didOpen notif4 [93m unlocked[0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/15 00:02:14 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h:0:0)
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.h'
+2021/06/15 00:02:14     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.h:0:0)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 00:02:14 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/15 00:02:14 SYLD--- [93m read-locked[0m
+2021/06/15 00:02:14 SYLD--- error: jsonrpc2: code -32602 message: trying to get AST for non-added document
+2021/06/15 00:02:14 SYLD--- [93m read-unlocked[0m
+2021/06/15 00:02:14 SYLD--- (done)
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/28 0%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 (queued)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 [93m read-locked[0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 (running)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.h):
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.h' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.h'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h'
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.h):
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif9 [93m read-unlocked[0m
+2021/06/15 00:02:14     <-- codeAction(0 elements)
+2021/06/15 00:02:14 <-- codeAction(0 elements)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/15 00:02:14 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp:0:0)
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp'
+2021/06/15 00:02:14     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.cpp:0:0)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 (queued)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 [93m read-locked[0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 (running)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.cpp):
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 0:9 - 1: pp_expects_filename
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 2:7 - 1: undeclared_var_use
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 5:8 - 1: undeclared_var_use
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 8:7 - 1: undeclared_var_use
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp' -> 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp'
+2021/06/15 00:02:14               as URI: 'file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp'
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 to IDE: publishDiagnostics(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp):
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 0:9 - 1: pp_expects_filename
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 2:7 - 1: undeclared_var_use
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 5:8 - 1: undeclared_var_use
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 > 8:7 - 1: undeclared_var_use
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif10 [93m read-unlocked[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/15 00:02:14     <-- codeAction(0 elements)
+2021/06/15 00:02:14 <-- codeAction(0 elements)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 3 [93m read-locked[0m
+2021/06/15 00:02:14 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/prueba%20contador%20orientado%20a%20objetos.ino:0:0)
+2021/06/15 00:02:14     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp:2:0)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 3 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 4 (4): [0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif11 (queued)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif11 [93m read-locked[0m
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif11 (running)
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif11 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/prueba%20contador%20orientado%20a%20objetos.ino.cpp):
+2021/06/15 00:02:14 CLG <-- textDocument/publishDiagnostics notif11 [93m read-unlocked[0m
+2021/06/15 00:02:14     <-- codeAction(0 elements)
+2021/06/15 00:02:14 <-- codeAction(0 elements)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 3 [93m read-unlocked[0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/28 3.5714285714285716%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/28 7.142857142857143%[0m
+2021/06/15 00:02:14 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 4 [93m read-locked[0m
+2021/06/15 00:02:14 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/prueba%20contador%20orientado%20a%20objetos/contador.cpp:0:0)
+2021/06/15 00:02:14     URI: 'C:\Users\NEXT\Documents\Arduino\prueba contador orientado a objetos\contador.cpp' -> 'C:\Users\NEXT\AppData\Local\Temp\arduino-language-server462115079\sketch\contador.cpp'
+2021/06/15 00:02:14     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server462115079/sketch/contador.cpp:0:0)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 4 sent to Clang
+2021/06/15 00:02:14 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/15 00:02:14 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 5 (5): [0m
+2021/06/15 00:02:14     <-- codeAction(0 elements)
+2021/06/15 00:02:14 <-- codeAction(0 elements)
+2021/06/15 00:02:14 IDE --> textDocument/codeAction 4 [93m read-unlocked[0m
+2021/06/15 00:02:14 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/15 00:02:15 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/28 10.714285714285714%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/15 00:02:15 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/28 14.285714285714286%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/15 00:02:15 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/28 17.857142857142858%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/15 00:02:15 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/15 00:02:15 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/28 21.428571428571427%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/28 25%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/28 28.571428571428573%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/28 32.142857142857146%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/28 35.714285714285715%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/28 39.285714285714285%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/28 42.857142857142854%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/28 46.42857142857143%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/28 50%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/28 53.57142857142857%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/28 57.142857142857146%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/28 60.714285714285715%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/28 64.28571428571429%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/28 67.85714285714286%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/28 71.42857142857143%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/28 75%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/28 78.57142857142857%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/28 82.14285714285714%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/15 00:02:16 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/15 00:02:16 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/28 85.71428571428571%[0m
+2021/06/15 00:02:17 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/15 00:02:17 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/28 89.28571428571429%[0m
+2021/06/15 00:02:17 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/15 00:02:17 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/28 92.85714285714286%[0m
+2021/06/15 00:02:17 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/15 00:02:17 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 27/28 96.42857142857143%[0m
+2021/06/15 00:02:17 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/15 00:02:17 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/15 00:02:17 [92mIDE --> LS     CL: REQUEST shutdown 5: [0m
+2021/06/15 00:02:17 IDE --> shutdown 5 [93m read-locked[0m
+2021/06/15 00:02:17 IDE --> shutdown 5 sent to Clang
+2021/06/15 00:02:17 [91mIDE     LS --> CL: REQUEST shutdown 6: [0m
+2021/06/15 00:02:17 [92mIDE     LS <-- CL: ANSWER shutdown 6 (6): [0m
+2021/06/15 00:02:17 IDE --> shutdown 5 [93m read-unlocked[0m
+2021/06/15 00:02:17 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/15 00:02:17 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/15 00:02:17 IDE --> exit notif5 [93m read-locked[0m
+2021/06/15 00:02:17 IDE --> exit notif5 sent to Clang
+2021/06/15 00:02:17 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/15 00:02:17 IDE --> exit notif5 [93m read-unlocked[0m
+2021/06/15 00:02:17 Lost connection with clangd!
+2021/06/15 00:02:17 removing buildpath
